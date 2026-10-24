@@ -225,6 +225,44 @@ Synthesizes a full Sourcing Dossier combining live firmographic telemetry and au
 }
 ```
 
+#### Response (Excerpt)
+```json
+{
+  "id": "dossier-171928374",
+  "metadata": {
+    "generatedAt": "2026-10-24T11:00:00.000Z",
+    "targetSectorOrDomain": "contravault.com",
+    "allocatedFunds": "$1.0M Seed Check",
+    "stage": "Seed",
+    "geography": "India",
+    "isSampleData": false
+  },
+  "capitalDeploymentStrategy": {
+    "totalAllocation": "$1.0M Seed Check",
+    "targetCheckPerDeal": "$750K - $1M",
+    "candidateCount": 3,
+    "recommendedDeploymentSummary": "Deploy lead check into primary candidate with reserve allocation for follow-on syndicate tranches."
+  },
+  "candidates": [
+    {
+      "id": "candidate-1",
+      "companyName": "ContraVault",
+      "domain": "contravault.com",
+      "matchScore": 94,
+      "recommendedCheckSize": "$750K - $1M",
+      "projectedOwnership": "10% - 14%",
+      "founders": [
+        {
+          "name": "Arjun Mehta",
+          "role": "CEO & Co-founder",
+          "pedigreeTags": ["Ex-Google", "IIT Bombay", "2x Founder"]
+        }
+      ]
+    }
+  ]
+}
+```
+
 ---
 
 ## 🤝 Contributing
@@ -239,4 +277,10 @@ Synthesizes a full Sourcing Dossier combining live firmographic telemetry and au
 
 ## 📄 License
 
-Distributed under the MIT License.
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+<p align="center">
+  <b>Built for Venture Capital Teams seeking an unfair advantage in early-stage dealflow.</b>
+</p>
